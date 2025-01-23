@@ -47,16 +47,31 @@ wheels/
 *.swo
 *~
 
+# Model files
+model_cache/
+/model_cache/*
+!/model_cache/.gitkeep
+.locks/
+models--t5-small/
+
+# Temp directories
+media_temp/
+/media_temp/*
+!/media_temp/.gitkeep
+
+temp_files/
+/temp_files/*
+!/temp_files/.gitkeep
+
+tmp/
+/tmp/*
+!/tmp/.gitkeep
+
 # Logs
 *.log
 logs/
 log/
 
-# OS generated files
+# OS files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
